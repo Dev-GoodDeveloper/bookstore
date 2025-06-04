@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readers' Paradise - Your Literary Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Readers' Paradise</h1>
+            <div class="store-info">
+                <div>📍 123 Book Street, Literature City</div>
+                <div>🕐 Open: 9:00 AM - 8:00 PM | Est. 2005</div>
+            </div>
+        </header>
+
+        <div class="controls">
+            <input type="text" class="search-box" placeholder="🔍 Search books by title or author..." id="searchBox">
+            <select class="category-filter" id="categoryFilter">
+                <option value="">All Categories</option>
+                <option value="fiction">Fiction</option>
+                <option value="non-fiction">Non-Fiction</option>
+                <option value="children">Children</option>
+                <option value="science-fiction">Science Fiction</option>
+            </select>
+            <div class="cart-info" id="cartInfo">
+                Cart: 0 items ($0.00)
+            </div>
+        </div>
+
+        <div class="books-grid" id="booksGrid">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

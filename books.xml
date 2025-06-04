@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book category="fiction">
+        <title lang="en">The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <year>1925</year>
+        <price>12.99</price>
+        <isbn>9780743273565</isbn>
+        <stock>25</stock>
+    </book>
+    
+    <book category="non-fiction">
+        <title lang="en">Sapiens: A Brief History of Humankind</title>
+        <author>Yuval Noah Harari</author>
+        <year>2011</year>
+        <price>15.50</price>
+        <isbn>9780062316097</isbn>
+        <stock>18</stock>
+    </book>
+    
+    <book category="children">
+        <title lang="en">Harry Potter and the Philosopher's Stone</title>
+        <author>J.K. Rowling</author>
+        <year>1997</year>
+        <price>10.99</price>
+        <isbn>9780747532743</isbn>
+        <stock>32</stock>
+    </book>
+    
+    <book category="science-fiction">
+        <title lang="en">Dune</title>
+        <author>Frank Herbert</author>
+        <year>1965</year>
+        <price>14.25</price>
+        <isbn>9780441172719</isbn>
+        <stock>12</stock>
+    </book>
+    
+    <bookstore_info>
+        <name>Readers' Paradise</name>
+        <location>123 Book Street, Literature City</location>
+        <established>2005</established>
+        <opening_hours>9:00 AM - 8:00 PM</opening_hours>
+    </bookstore_info>
+</bookstore>
