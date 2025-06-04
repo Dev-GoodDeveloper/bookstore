@@ -1,9 +1,9 @@
 // Book data from XML
 const books = [
     {
-        title: "The Great Gatsby",
-        author: "F. Scott Fitzgerald",
-        year: 1925,
+        title: "The Art of not Overthinking",
+        author: "Shaurya Kapoor",
+        year: 2001,
         price: 12.99,
         isbn: "9780743273565",
         stock: 25,
